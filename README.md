@@ -13,6 +13,9 @@ In order to access the trained models from Hugging Face, follow the below steps.
 from huggingface_hub import login
 login()
 ```
-
-
+Llama2-7B developed by Meta is available for use publically upon request. Therefore before you can use, you need to request for access on Hugging Face. 
+Please follow the below steps to request for access: 
+1. Visit [this](https://huggingface.co/meta-llama/Llama-2-7b) page on Hugging Face, fill the application to request for Llama 2 access.
+2. You will receive an email to the registered email ID once the access has been granted.
+3. We can then use the model freely and load it into our project.
 
