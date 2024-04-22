@@ -19,3 +19,12 @@ Please follow the below steps to request for access:
 2. You will receive an email to the registered email ID once the access has been granted.
 3. We can then use the model freely and load it into our project.
 
+In order to view the logs while training the models, we have made use of **wandb**. Before using it, we need to request access. 
+Please follow the below steps to request access for wandb.
+1. Create an account with [Weights & Biases](https://wandb.ai/site).
+2. Follow the steps written in the documentation [here](https://docs.wandb.ai/quickstart) to set up wandb in your coding environment. Enter your API keys when prompted.
+
+```
+pip install wandb
+wandb login
+```
