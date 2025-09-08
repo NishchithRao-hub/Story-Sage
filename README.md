@@ -1,5 +1,7 @@
-# STORY SAGE
-Story Sage : Short-Story ending prediction model based on a given theme. 
+# Overview
+An interactive LLM short story generation tool which accepts 2k-character input with an ending theme. Fine-tuned GIST/GPT-2 and Flan-T5 
+for theme classification and summarization. Used Llama2-7b model for the short story ending prediction. Integrated components into LLaMA2-7B 
+using Transformers and PEFT for fine-tuning. 
 
 ## Using the model :
 All models used for theme extraction, summarization and ending prediction have been fine-tuned, trained and uploaded to [Hugging Face](https://huggingface.co) website. We did this so that the model doesn't need to be trained each time before use.
